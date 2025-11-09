@@ -27,10 +27,12 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center">
-                <Icon name="Shield" className="text-primary" size={24} />
-              </div>
-              <h1 className="text-xl font-bold">Kingsmans</h1>
+              <img 
+                src="https://cdn.poehali.dev/files/18a1abe2-49e0-45be-a264-26e66c0c181c.png" 
+                alt="Kingsman Logo" 
+                className="w-12 h-12 object-contain"
+              />
+              <h1 className="text-xl font-bold" style={{ color: '#C9A661' }}>Kingsman</h1>
             </div>
             <div className="hidden md:flex items-center gap-6">
               {menuItems.slice(0, 4).map((item) => (
