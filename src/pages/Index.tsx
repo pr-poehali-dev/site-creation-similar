@@ -53,9 +53,7 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="mb-12 animate-fade-in">
           <h2 className="text-3xl font-bold mb-4">Добро пожаловать в Statesman</h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Подразделение Military Academy, далее MA. Представляет собой специализированное подразделение, предназначенное для подготовки и обучения будущих офицеров, которые будут служить в рядах U.S. Army.
-          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed">Подразделение Statesman. Представляет собой специализированное подразделение, предназначенное для подготовки и обучения будущих агентов, которые будут служить в рядах Kingsman .</p>
         </div>
 
         <div className="space-y-4">
