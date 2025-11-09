@@ -30,7 +30,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center">
                 <Icon name="Shield" className="text-primary" size={24} />
               </div>
-              <h1 className="text-xl font-bold">Military Academy</h1>
+              <h1 className="text-xl font-bold">Kingsmans</h1>
             </div>
             <div className="hidden md:flex items-center gap-6">
               {menuItems.slice(0, 4).map((item) => (
