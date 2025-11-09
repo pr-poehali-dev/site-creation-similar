@@ -32,7 +32,7 @@ const Index = () => {
                 alt="Kingsman Logo" 
                 className="w-12 h-12 object-contain"
               />
-              <h1 className="text-xl font-bold" style={{ color: '#C9A661' }}>Kingsman</h1>
+              <h1 className="text-xl font-bold" style={{ color: '#C9A661' }}>Kingsmans</h1>
             </div>
             <div className="hidden md:flex items-center gap-6">
               {menuItems.slice(0, 4).map((item) => (
@@ -52,9 +52,7 @@ const Index = () => {
 
       <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="mb-12 animate-fade-in">
-          <h2 className="text-3xl font-bold mb-4">
-            Добро пожаловать в Military Academy
-          </h2>
+          <h2 className="text-3xl font-bold mb-4">Добро пожаловать в Kingsmans</h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
             Подразделение Military Academy, далее MA. Представляет собой специализированное подразделение, предназначенное для подготовки и обучения будущих офицеров, которые будут служить в рядах U.S. Army.
           </p>
