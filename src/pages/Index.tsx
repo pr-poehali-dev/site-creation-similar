@@ -32,7 +32,7 @@ const Index = () => {
                 alt="Kingsman Logo" 
                 className="w-12 h-12 object-contain"
               />
-              <h1 className="text-xl font-bold" style={{ color: '#C9A661' }}>Kingsmans</h1>
+              <h1 className="text-xl font-bold text-[#ffffff]" style={{ color: '#C9A661' }}>Kingsmans</h1>
             </div>
             <div className="hidden md:flex items-center gap-6">
               {menuItems.slice(0, 4).map((item) => (
